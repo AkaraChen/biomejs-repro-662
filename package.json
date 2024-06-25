@@ -4,6 +4,7 @@
 		"lefthook": "^1.6.18"
 	},
 	"scripts": {
-		"check": "biome check . --write"
+		"check": "biome check . --write",
+    "prepack": "lefthook install"
 	}
 }
